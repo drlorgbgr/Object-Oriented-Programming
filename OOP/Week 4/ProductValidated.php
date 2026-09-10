@@ -1,5 +1,5 @@
 <?php
-// File: ProductValidated.php
+
 class Product {
     private $nama;
     private $harga;
@@ -66,7 +66,8 @@ try {
     // Test validasi - akan error
     // $product->setHarga(-1000);
     // $product->setDiskon(150);
-} 
+}
+ 
 catch (Exception $e) {
     echo "Error: " . $e->getMessage();
 }
