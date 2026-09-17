@@ -58,7 +58,7 @@ class Elektronik extends Produk {
 // --- Eksekusi Program ---
 echo "<pre>";
 
-$makanan = new Makanan("Mie Instan", "Indomie", 3500, "2025-06-30");
+$makanan = new Makanan("Mie Instan", "Indomie", 3500, "2027-06-30");
 echo $makanan->getInfo();
 
 echo "<br>";
